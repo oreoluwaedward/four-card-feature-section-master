@@ -1,0 +1,109 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color :hsl(0, 0%, 98%);
+}
+h1{
+    text-align: center;
+    font-weight: 300px;
+    color: black;
+    transform: translatey(-20px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+    text-align: center;
+    transform: translatey(-40px);
+    color:hsl(0, 0%, 98%);
+    font-size: 18px;
+}
+h4{
+    border:2px solid hsl(0, 0%, 98%);
+    background-color:hsl(0, 0%, 98%); 
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 500px;
+    border-radius: 5px;
+    transform: translateY(-270px);
+    color: wheat;
+    border-top: 3px solid hsl(0, 78%, 62%) ;
+}
+strong{
+    transform: translateY(-20px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+
+}
+img{
+    margin-left: 190px;
+    transform: translateY(30px);
+}
+h3{
+    border:2px solid hsl(0, 0%, 98%);
+    background-color:hsl(0, 0%, 98%); 
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 170px;
+    border-radius: 5px;
+    transform: translateY(56px);
+    color: wheat;
+    border-top: 3px solid hsl(180, 62%, 55%) ;
+}
+.do{
+    border:2px solid hsl(0, 0%, 98%);
+    background-color:hsl(0, 0%, 98%); 
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 830px;
+    border-radius: 5px;
+    transform: translateY(-610px);
+    color: wheat;
+    font-size: 18px;
+    border-top: 3px solid  hsl(212, 86%, 64%);
+}
+.we{
+    border:2px solid hsl(0, 0%, 98%);
+    background-color:hsl(0, 0%, 98%); 
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 500px;
+    border-radius: 5px;
+    transform: translateY(-280px);
+    color: wheat;
+    font-size: 18px;
+    border-top: 3px solid hsl(34, 97%, 64%) ;
+
+}
+@media screen and (max-width: 768px) {
+    h3{
+        width: 80%;
+        margin-left: 16px;
+        transform: translateY(-40px);
+    }
+    h4{
+        width: 80%;
+        margin-left: 16px;
+        transform: translateY(-40px);
+
+    }
+    .do{
+        width: 80%;
+        margin-left: 16px;
+        transform: translateY(-40px);
+    }
+    .we{
+        width: 80%;
+        margin-left: 16px;
+        transform: translateY(-40px);
+    }
+
+}
